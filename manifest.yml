@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testhenry1
+  host: testhenry1
+  disk_quota: 1024M
+  services:
+  - Compose for MongoDB-ox
+  - performance-monitoring-auto
+  - testhenry1-cloudantNoSQLDB
+  - Compose for MongoDB-w5
